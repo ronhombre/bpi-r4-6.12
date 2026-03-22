@@ -13,7 +13,7 @@ cd mtk-openwrt-feeds; git checkout 24595844f63aebb6ccb9bcd28d9690dbfc541a46; cd 
 
 \cp -r my_files/999-sfp-10-additional-quirks.patch mtk-openwrt-feeds/25.12/files/target/linux/mediatek/patches-6.12
 
-\cp -r my_files/9999-image-bpi-r4-sdcard.patch mtk-openwrt-feeds/25.12/patches-base
+#\cp -r my_files/9999-image-bpi-r4-sdcard.patch mtk-openwrt-feeds/25.12/patches-base
 
 rm -f mtk-openwrt-feeds/25.12/patches-base/1130-image-mediatek-filogic-add-bananapi-bpi-r4-pro-support.patch
 rm -f mtk-openwrt-feeds/25.12/patches-base/1132-image-mediatek-filogic-add-bananapi-bpi-r4-lite-support.patch
