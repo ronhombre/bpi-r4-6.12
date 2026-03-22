@@ -19,6 +19,7 @@ rm -f mtk-openwrt-feeds/25.12/patches-base/1130-image-mediatek-filogic-add-banan
 rm -f mtk-openwrt-feeds/25.12/patches-base/1132-image-mediatek-filogic-add-bananapi-bpi-r4-lite-support.patch
 rm -f mtk-openwrt-feeds/25.12/patches-base/1133-image-mediatek-filogic-add-bananapi-bpi-r4-support.patch
 rm -f mtk-openwrt-feeds/25.12/patches-base/1134-image-mediatek-filogic-add-bananapi-bpi-r4-mini-support.patch
+rm -f mtk-openwrt-feeds/25.12/patches-base/1142-image-mediatek-filogic-mt7987a-rfb-03-add-spidev-overlays.patch
 
 cd openwrt
 bash ../mtk-openwrt-feeds/autobuild/unified/autobuild.sh filogic-mac80211-mt798x_rfb-wifi7_nic prepare
