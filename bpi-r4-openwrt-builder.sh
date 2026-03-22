@@ -15,9 +15,10 @@ cd mtk-openwrt-feeds; git checkout 24595844f63aebb6ccb9bcd28d9690dbfc541a46; cd 
 
 \cp -r my_files/9999-image-bpi-r4-sdcard.patch mtk-openwrt-feeds/25.12/patches-base
 
-rm -f mtk-openwrt-feeds//25.12/patches-base/1130-image-mediatek-filogic-add-bananapi-bpi-r4-pro-support.patch
-rm -f mtk-openwrt-feeds//25.12/patches-base/1132-image-mediatek-filogic-add-bananapi-bpi-r4-lite-support.patch
-rm -f mtk-openwrt-feeds//25.12/patches-base/1133-image-mediatek-filogic-add-bananapi-bpi-r4-support.patch
+rm -f mtk-openwrt-feeds/25.12/patches-base/1130-image-mediatek-filogic-add-bananapi-bpi-r4-pro-support.patch
+rm -f mtk-openwrt-feeds/25.12/patches-base/1132-image-mediatek-filogic-add-bananapi-bpi-r4-lite-support.patch
+rm -f mtk-openwrt-feeds/25.12/patches-base/1133-image-mediatek-filogic-add-bananapi-bpi-r4-support.patch
+rm -f mtk-openwrt-feeds/25.12/patches-base/1134-image-mediatek-filogic-add-bananapi-bpi-r4-mini-support.patch
 
 cd openwrt
 bash ../mtk-openwrt-feeds/autobuild/unified/autobuild.sh filogic-mac80211-mt798x_rfb-wifi7_nic prepare
